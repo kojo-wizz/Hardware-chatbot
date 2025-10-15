@@ -1,0 +1,28 @@
+function sendMessage() {
+  let input = document.getElementById("userInput").value;
+  let messages = document.getElementById("messages");
+
+  // Show user message
+  let userMsg = document.createElement("div");
+  userMsg.className = "msg user";
+  userMsg.innerText = "You: " + input;
+  messages.appendChild(userMsg);
+
+  // Bot reply
+  let botMsg = document.createElement("div");
+  botMsg.className = "msg bot";
+
+  if (input.toLowerCase().includes("computer not turning on")) {
+    botMsg.innerText = "Bot: Check if the power cable is connected and the power supply is working.";
+  } else if (input.toLowerCase().includes("overheating")) {
+    botMsg.innerText = "Bot: Clean your fans and ensure proper airflow in the case.";
+  } else if (input.toLowerCase().includes("slow")) {
+    botMsg.innerText = "Bot: Consider upgrading RAM or checking for viruses.";
+  } else {
+    botMsg.innerText = "Bot: Sorry, I don’t understand. Try asking about hardware issues like 'overheating' or 'slow computer'.";
+  }
+
+  messages.appendChild(botMsg);
+  document.getElementById("userInput").value = "";
+  messages.scrollTop = messages.scrollHeight;
+}
