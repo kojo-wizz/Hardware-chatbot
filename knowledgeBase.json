@@ -1,198 +1,162 @@
 [
   {
-    "question": "💻 My laptop is running very slow.",
-    "answer": "Clear temp files, uninstall unused apps, and check Task Manager for heavy processes. You can also upgrade RAM or switch to SSD."
+    "problem": "Laptop not turning on",
+    "solution": "Check if the power cable and adapter are properly connected. Try removing the battery and pressing the power button for 10 seconds, then reconnect and power on."
   },
   {
-    "question": "🔋 My laptop battery drains too fast.",
-    "answer": "Lower screen brightness, close background apps, and disable Wi-Fi or Bluetooth when not needed. Consider replacing the battery if it's old."
+    "problem": "Laptop turns on but no display",
+    "solution": "Ensure brightness is not turned all the way down. Disconnect any external display and try restarting. If still black, the RAM may need reseating."
   },
   {
-    "question": "⚡ My laptop doesn’t turn on.",
-    "answer": "Check the charger and power cable. Try holding the power button for 10 seconds. If still dead, remove the battery and reinsert it."
+    "problem": "Battery not charging",
+    "solution": "Check the charging port for dust. Try a different power outlet or charger. If the light shows charging but percentage doesn’t increase, recalibrate or replace the battery."
   },
   {
-    "question": "🌐 My Wi-Fi keeps disconnecting.",
-    "answer": "Forget the Wi-Fi network and reconnect. Update network drivers or reset your router. Disable power-saving mode for Wi-Fi adapter."
+    "problem": "Laptop overheating",
+    "solution": "Clean air vents and ensure fans are spinning. Avoid using on soft surfaces and consider applying new thermal paste if it overheats frequently."
   },
   {
-    "question": "🖱 My touchpad isn’t working.",
-    "answer": "Press the function key (like F5 or F9) to enable it. Update the touchpad driver or check Windows settings → Touchpad."
+    "problem": "Laptop fan making noise",
+    "solution": "The fan may have dust buildup or be misaligned. Use compressed air to clean it. Replace the fan if the noise persists."
   },
   {
-    "question": "🎧 No sound on my laptop.",
-    "answer": "Ensure the volume isn’t muted. Update the audio driver, and check playback device settings under Sound Control Panel."
+    "problem": "WiFi not connecting",
+    "solution": "Turn airplane mode off, restart the router, and forget and reconnect to the network. Update WiFi drivers if the issue persists."
   },
   {
-    "question": "📶 Laptop not detecting Wi-Fi.",
-    "answer": "Restart the router, enable Wi-Fi via function key, and reinstall the wireless driver from Device Manager."
+    "problem": "Bluetooth not working",
+    "solution": "Ensure Bluetooth is enabled in Settings. Restart the Bluetooth service, and reinstall the Bluetooth driver from Device Manager."
   },
   {
-    "question": "💡 Screen stays black after startup.",
-    "answer": "Try a hard reset (hold power for 10s). Connect an external monitor to check if display is dead. If yes, GPU or screen issue."
+    "problem": "Slow laptop performance",
+    "solution": "Check background processes in Task Manager. Uninstall unused apps, run disk cleanup, and consider upgrading RAM or switching to an SSD."
   },
   {
-    "question": "🔥 My laptop is overheating.",
-    "answer": "Clean dust from vents, use it on a flat surface, and apply new thermal paste if needed. Avoid blocking air vents."
+    "problem": "Laptop freezing frequently",
+    "solution": "Check for overheating or full storage. Run antivirus scan, update drivers, and disable startup apps that aren’t needed."
   },
   {
-    "question": "⚙️ Laptop freezes randomly.",
-    "answer": "Could be software conflict or RAM issue. Run a virus scan, uninstall suspicious apps, and check memory with Windows Memory Tool."
+    "problem": "Keyboard not working",
+    "solution": "Check for dirt or liquid under the keys. Reinstall keyboard drivers or try an external keyboard to confirm hardware issues."
   },
   {
-    "question": "🧠 My laptop restarts automatically.",
-    "answer": "Check for Windows updates and overheating. It might also be a power supply issue — test with another adapter."
+    "problem": "Touchpad not responding",
+    "solution": "Make sure touchpad is enabled using Fn key (often Fn + F6/F7). Reinstall touchpad drivers and check for software conflicts."
   },
   {
-    "question": "🪫 Battery not charging even when plugged in.",
-    "answer": "Unplug charger, remove battery, then press power for 30 seconds. Reinsert and reconnect. If still not charging, replace the adapter or battery."
+    "problem": "USB ports not working",
+    "solution": "Restart your computer, update chipset drivers, and check the power settings for USB selective suspend options."
   },
   {
-    "question": "💾 Laptop says 'No Bootable Device'.",
-    "answer": "Your hard drive may be disconnected or corrupted. Enter BIOS and check if drive is detected."
+    "problem": "Battery draining fast",
+    "solution": "Reduce brightness, close background apps, disable Bluetooth/WiFi when not needed, and replace the battery if it’s old."
   },
   {
-    "question": "💿 How to boot my laptop from USB?",
-    "answer": "Insert bootable USB, restart laptop, press F12 or Esc during boot, and select your USB from boot menu."
+    "problem": "Laptop shuts down suddenly",
+    "solution": "Usually due to overheating or power failure. Clean the fans, check thermal paste, and test with another adapter."
   },
   {
-    "question": "🧹 How can I clean my laptop safely?",
-    "answer": "Use a soft microfiber cloth and a little isopropyl alcohol. Avoid spraying directly on the screen or keyboard."
+    "problem": "No sound from speakers",
+    "solution": "Check if sound is muted or set to the wrong output device. Reinstall or update your audio driver."
   },
   {
-    "question": "🔑 Forgot my Windows password.",
-    "answer": "Use password reset disk or Microsoft account recovery. For local accounts, you can reinstall Windows if recovery fails."
+    "problem": "Microphone not working",
+    "solution": "Check app permissions in sound settings. Update audio input driver and test with another app or external mic."
   },
   {
-    "question": "🪟 Windows is not activating.",
-    "answer": "Check your product key validity. If digital license, make sure you're signed into your Microsoft account."
+    "problem": "Laptop not detecting external monitor",
+    "solution": "Check the HDMI or VGA connection. Use Windows + P to switch display mode and update your graphics driver."
   },
   {
-    "question": "📸 Laptop camera not working.",
-    "answer": "Press function key to enable camera (e.g., F8). Check privacy settings and update camera driver."
+    "problem": "Screen flickering",
+    "solution": "Lower screen refresh rate in settings or update graphics drivers. Check for loose display cables."
   },
   {
-    "question": "🔊 Speaker produces distorted sound.",
-    "answer": "Lower the volume, disable sound enhancements in Control Panel, or reinstall the audio driver."
+    "problem": "Hard drive not detected",
+    "solution": "Enter BIOS to see if it appears there. Check SATA connection or test the drive on another system."
   },
   {
-    "question": "🖨 Printer not connecting to laptop.",
-    "answer": "Make sure it’s powered on, connected to Wi-Fi or USB, and drivers are installed. Restart both devices."
+    "problem": "SSD not detected",
+    "solution": "Ensure NVMe/SATA mode is properly set in BIOS. Try reseating the SSD or updating firmware."
   },
   {
-    "question": "📁 I lost my important files.",
-    "answer": "Check Recycle Bin or use data recovery software like Recuva or PhotoRec. Always back up important data."
+    "problem": "Windows not booting",
+    "solution": "Run startup repair using Windows installation media. Check if boot order is correct in BIOS."
   },
   {
-    "question": "📀 How to reinstall Windows?",
-    "answer": "Create a bootable USB using Microsoft Media Creation Tool, then boot from it and follow setup instructions."
+    "problem": "Laptop keeps restarting",
+    "solution": "Disable automatic restart on system failure. Run antivirus and check for driver or Windows update issues."
   },
   {
-    "question": "🖥 Display flickers sometimes.",
-    "answer": "Update graphics driver and check display refresh rate settings. If external monitor works fine, screen cable may be loose."
+    "problem": "Blue screen of death",
+    "solution": "Note the error code, then update all drivers. Check for overheating, faulty RAM, or corrupted system files."
   },
   {
-    "question": "🌡 Laptop fan is too loud.",
-    "answer": "Clean dust and check fan settings in BIOS. Use a cooling pad if needed."
+    "problem": "Laptop stuck on BIOS screen",
+    "solution": "Reset BIOS to default settings. Disconnect all external devices and restart."
   },
   {
-    "question": "🧱 My keyboard isn’t responding.",
-    "answer": "Restart your laptop. If only a few keys fail, remove the keycaps and clean beneath. Try external keyboard to confirm issue."
+    "problem": "Laptop beeps and won’t boot",
+    "solution": "The beep code indicates a hardware issue. Count the beeps and refer to your laptop manual for diagnosis (often RAM or GPU)."
   },
   {
-    "question": "📂 I can’t open any applications.",
-    "answer": "Run a full antivirus scan. Try starting in Safe Mode to uninstall recently installed suspicious apps."
+    "problem": "BIOS password forgotten",
+    "solution": "You may need to reset BIOS by removing the CMOS battery or contacting the manufacturer for a master key."
   },
   {
-    "question": "🕒 Laptop takes forever to boot.",
-    "answer": "Disable startup programs using Task Manager. Consider upgrading to SSD for faster load times."
+    "problem": "Overheating while gaming",
+    "solution": "Clean the vents, use a cooling pad, and ensure your GPU drivers are updated. Avoid high-performance mode on battery."
   },
   {
-    "question": "🧲 My laptop is making clicking noises.",
-    "answer": "Likely a failing hard drive. Back up your data immediately and replace the drive."
+    "problem": "Laptop very slow after update",
+    "solution": "Some updates rebuild indexes or drivers. Let it run for a while or uninstall recent updates from settings."
   },
   {
-    "question": "🪞 How can I screen mirror my laptop to TV?",
-    "answer": "Use HDMI cable or wireless casting (Miracast). Ensure both devices are on same Wi-Fi network."
+    "problem": "Laptop screen cracked",
+    "solution": "You’ll need to replace the screen panel. Contact service center or use an external monitor temporarily."
   },
   {
-    "question": "🔌 Laptop shuts down when unplugged.",
-    "answer": "Battery might be dead. Try recalibrating battery or replacing it if old."
+    "problem": "Display upside down",
+    "solution": "Use Ctrl + Alt + Up Arrow to fix orientation or change rotation in display settings."
   },
   {
-    "question": "💡 Screen brightness not adjusting.",
-    "answer": "Update display driver and check Windows mobility settings. Function keys might also control brightness."
+    "problem": "Windows update stuck",
+    "solution": "Wait at least 30 minutes, then hold power button to force restart. Boot into Safe Mode if needed."
   },
   {
-    "question": "💻 My laptop shows blue screen (BSOD).",
-    "answer": "Note the error code. It’s often caused by driver or RAM issues. Update drivers and run memory diagnostics."
+    "problem": "Applications crashing",
+    "solution": "Update or reinstall the problematic software. Check for OS updates and clear temporary cache files."
   },
   {
-    "question": "🧑‍💻 Cursor freezes randomly.",
-    "answer": "Disable touchpad gestures, update driver, and clean the surface if using external mouse."
+    "problem": "Laptop won’t sleep",
+    "solution": "Check power plan settings. Disable background apps preventing sleep, and update chipset drivers."
   },
   {
-    "question": "🕵️‍♂️ My laptop is infected with a virus.",
-    "answer": "Run a full scan using Windows Defender or Malwarebytes. Avoid downloading from untrusted sites."
+    "problem": "Battery percentage stuck",
+    "solution": "Unplug the charger, drain battery completely, and recharge fully. Calibrate if issue persists."
   },
   {
-    "question": "📉 Laptop performance dropped suddenly.",
-    "answer": "Check background processes, overheating, and storage space. Restart or update your system."
+    "problem": "External hard drive not detected",
+    "solution": "Try another USB port or system. Assign a drive letter from Disk Management if it’s not appearing."
   },
   {
-    "question": "🌍 Browser keeps crashing.",
-    "answer": "Clear cache, disable extensions, or reinstall the browser."
+    "problem": "Printer not connecting",
+    "solution": "Ensure WiFi or USB connection is stable. Reinstall printer drivers and restart both devices."
   },
   {
-    "question": "🔐 Laptop is locked by BitLocker.",
-    "answer": "Use recovery key saved to your Microsoft account. If lost, you can’t bypass encryption legally."
+    "problem": "Mouse cursor freezing",
+    "solution": "Clean the sensor area. Update mouse drivers or reduce pointer speed in settings."
   },
   {
-    "question": "🖲 External mouse not working.",
-    "answer": "Try another USB port. Replace battery if wireless. Update USB drivers."
+    "problem": "System time keeps changing",
+    "solution": "Replace the CMOS battery on the motherboard. Sync clock with internet time server."
   },
   {
-    "question": "🧾 USB not detected.",
-    "answer": "Restart laptop and reconnect USB. Try different port or update chipset drivers."
+    "problem": "Laptop not recognizing RAM upgrade",
+    "solution": "Ensure RAM is compatible and properly seated. Update BIOS and check max supported capacity."
   },
   {
-    "question": "🔋 My new battery won’t charge to 100%.",
-    "answer": "Some laptops have battery health mode enabled — check BIOS or power management settings."
-  },
-  {
-    "question": "🌈 Colors look weird on screen.",
-    "answer": "Adjust color calibration in display settings. Update GPU drivers."
-  },
-  {
-    "question": "📦 Laptop runs out of storage space.",
-    "answer": "Delete old downloads, empty Recycle Bin, and move files to external drive or cloud."
-  },
-  {
-    "question": "🧑‍💻 My system lags when using Zoom or Meet.",
-    "answer": "Close other tabs, reduce background processes, and ensure webcam/mic drivers are up to date."
-  },
-  {
-    "question": "🎮 Laptop gets hot while gaming.",
-    "answer": "Use cooling pad, clean fans, and adjust graphics settings. Ensure GPU drivers are updated."
-  },
-  {
-    "question": "🧰 How can I update my drivers safely?",
-    "answer": "Use Windows Update or official manufacturer website — avoid third-party driver tools."
-  },
-  {
-    "question": "📠 Bluetooth not connecting.",
-    "answer": "Toggle Bluetooth off/on, remove and re-pair device, and update Bluetooth driver."
-  },
-  {
-    "question": "📵 My laptop won’t connect to mobile hotspot.",
-    "answer": "Change hotspot name, use 2.4GHz mode, and reset your network adapter."
-  },
-  {
-    "question": "🧠 My RAM usage is always 100%.",
-    "answer": "Check Task Manager → Startup programs. Disable unnecessary apps or upgrade RAM."
-  },
-  {
-    "question": "🔐 Laptop says 'Access Denied' for folders.",
-    "answer": "Right-click → Properties → Security → Edit permissions. Run as administrator."
+    "problem": "Windows activation error",
+    "solution": "Run activation troubleshooter or re-enter your product key. Contact Microsoft support if needed."
   }
 ]
