@@ -1,51 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hardware Chatbot</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WizzKojoTechMate Assistant 💻🤖</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0a0f1c, #1a2238);
+      color: #fff;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
+      justify-content: center;
       height: 100vh;
+      margin: 0;
     }
-    #chat-container {
-      width: 400px;
-      background: white;
-      padding: 20px;
+    h1 {
+      color: #00e0ff;
+      text-shadow: 0 0 15px #00e0ff77;
+    }
+    .chatbox {
+      width: 90%;
+      max-width: 420px;
+      height: 480px;
+      background: #1c2431;
       border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    }
-    #messages {
-      height: 300px;
+      padding: 15px;
       overflow-y: auto;
-      border: 1px solid #ddd;
-      padding: 10px;
-      margin-bottom: 10px;
+      box-shadow: 0 0 25px #00e0ff55;
     }
-    .msg {
-      margin: 5px 0;
+    .user {
+      color: #00e0ff;
+      margin: 10px 0;
     }
-    .user { color: blue; }
-    .bot { color: green; }
+    .bot {
+      color: #0fff95;
+      margin: 10px 0;
+    }
     input {
-      width: 80%;
+      width: 70%;
       padding: 10px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      font-size: 15px;
     }
     button {
-      padding: 10px;
+      padding: 10px 15px;
+      background: #00e0ff;
+      border: none;
+      border-radius: 5px;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    button:hover {
+      background: #0fff95;
+      color: #000;
     }
   </style>
 </head>
 <body>
-  <div id="chat-container">
-    <h2>💻 Hardware Chatbot</h2>
-    <div id="messages"></div>
-    <input type="text" id="userInput" placeholder="Ask me about hardware...">
+  <h1>🤖 WizzKojoTechMate Assistant 💻</h1>
+  <div class="chatbox" id="chat-output">
+    <p><strong>Bot:</strong> 👋 Hey there! I’m <b>WizzKojoTechMate</b> — your friendly laptop troubleshooting assistant.  
+    Tell me your problem and I’ll help you fix it 🔧💡</p>
+  </div>
+
+  <div style="margin-top: 10px;">
+    <input type="text" id="user-input" placeholder="Type your question..." />
     <button onclick="sendMessage()">Send</button>
   </div>
 
